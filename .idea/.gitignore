@@ -6,3 +6,8 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+target/
+.idea/libraries/
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/modules.xml
