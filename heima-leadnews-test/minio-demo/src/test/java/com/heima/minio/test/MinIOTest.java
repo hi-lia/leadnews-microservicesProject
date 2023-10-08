@@ -20,7 +20,7 @@ public class MinIOTest {
     private FileStorageService fileStorageService;
     @Test
     public void test() throws FileNotFoundException {
-        FileInputStream fileInputStream = new FileInputStream("/Users/meiting/Downloads/file-for-workspace/day2/list.html");
+        FileInputStream fileInputStream = new FileInputStream("/Users/anla/Downloads/project_data/day2/list.html");
 
         String path = fileStorageService.uploadHtmlFile("","list.html", fileInputStream);
         System.out.println(path);
@@ -29,7 +29,7 @@ public class MinIOTest {
 
     public static void main(String[] args) {
         try{
-            FileInputStream fileInputStream = new FileInputStream("/Users/meiting/Downloads/file-for-workspace/day2/plugins/js/axios.min.js");
+            FileInputStream fileInputStream = new FileInputStream("/Users/anla/Downloads/project_data/day2/plugins/js/axios.min.js");
 
             //1. 获取minio的链接信息，创建一个minio的客户端
             MinioClient minioClient = MinioClient.builder().credentials("minio","minio123").endpoint("http://localhost:9000").build();

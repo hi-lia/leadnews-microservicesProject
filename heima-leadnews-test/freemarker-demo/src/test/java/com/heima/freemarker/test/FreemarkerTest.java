@@ -32,7 +32,7 @@ public class FreemarkerTest {
          * 第一个参数：模型数据
          * 第二个参数：输出流
          */
-        template.process(getData(), new FileWriter("/Users/meiting/Downloads/file-for-workspace/day2/list.html"));
+        template.process(getData(), new FileWriter("/Users/anla/Downloads/project_data/day2/list.html"));
 
 
     }
